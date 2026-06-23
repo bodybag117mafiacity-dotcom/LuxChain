@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\regal\\Desktop\\LuxChain\\LuxNode\\wwwroot\\data\\coins.json",
+      "PackagePath": "staticwebassets\\data\\coins.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LuxNode.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LuxNode.props",
+      "PackagePath": "build\\LuxNode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LuxNode.props",
+      "PackagePath": "buildMultiTargeting\\LuxNode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LuxNode.props",
+      "PackagePath": "buildTransitive\\LuxNode.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

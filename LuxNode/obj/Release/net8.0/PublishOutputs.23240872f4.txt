@@ -1,0 +1,12 @@
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\LuxNode.exe
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\appsettings.json
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\LuxNode.dll
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\LuxNode.deps.json
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\LuxNode.runtimeconfig.json
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\LuxNode.pdb
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\regal\Desktop\LuxChain\LuxNode\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

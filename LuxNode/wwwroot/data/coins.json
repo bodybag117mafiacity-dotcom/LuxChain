@@ -1,0 +1,14 @@
+[
+  {
+    "Symbol": "LUX",
+    "Name": "LuxChain",
+    "Balance": 1250.55,
+    "Icon": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+  },
+  {
+    "Symbol": "BTC",
+    "Name": "Bitcoin",
+    "Balance": 0.054,
+    "Icon": "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+  }
+]

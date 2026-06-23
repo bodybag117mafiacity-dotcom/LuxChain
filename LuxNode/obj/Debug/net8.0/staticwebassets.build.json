@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "eu/5av8XgWzkjeabpxPq6UXZ5dd+mUOyfpixhK4GYTE=",
+  "Source": "LuxNode",
+  "BasePath": "_content/LuxNode",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LuxNode\\wwwroot",
+      "Source": "LuxNode",
+      "ContentRoot": "C:\\Users\\regal\\Desktop\\LuxChain\\LuxNode\\wwwroot\\",
+      "BasePath": "_content/LuxNode",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\regal\\Desktop\\LuxChain\\LuxNode\\wwwroot\\data\\coins.json",
+      "SourceId": "LuxNode",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\regal\\Desktop\\LuxChain\\LuxNode\\wwwroot\\",
+      "BasePath": "_content/LuxNode",
+      "RelativePath": "data/coins.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\coins.json"
+    }
+  ]
+}

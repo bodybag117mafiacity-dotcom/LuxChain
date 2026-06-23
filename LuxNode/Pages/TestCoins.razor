@@ -1,0 +1,98 @@
+@page "/test/coins"
+@using LuxNode.Models
+@inject IHttpClientFactory ClientFactory
+
+<h1 class="title">💳 Carte Noire – Wallet</h1>
+
+@if (coins == null)
+{
+    <p class="loading">Chargement du wallet...</p>
+}
+else
+{
+    <div class="wallet-grid">
+        @foreach (var c in coins)
+        {
+            <div class="coin-card">
+                <img src="@c.Icon" class="coin-icon" />
+
+                <div class="coin-info">
+                    <h2>@c.Symbol</h2>
+                    <p>@c.Name</p>
+                    <span class="balance">@c.Balance</span>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<CoinCard>? coins;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = ClientFactory.CreateClient();
+        coins = await client.GetFromJsonAsync<List<CoinCard>>("data/coins.json");
+    }
+}
+
+<style>
+    .title {
+        color: #00ffcc;
+        font-size: 32px;
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px #00ffcc;
+    }
+
+    .loading {
+        color: #aaa;
+        font-size: 20px;
+    }
+
+    .wallet-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 20px;
+    }
+
+    .coin-card {
+        background: #0a0a0a;
+        border: 1px solid #00ffcc33;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 0 15px #00ffcc22;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .coin-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 25px #00ffcc55;
+    }
+
+    .coin-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .coin-info h2 {
+        margin: 0;
+        color: #00ffcc;
+        font-size: 24px;
+    }
+
+    .coin-info p {
+        margin: 0;
+        color: #ccc;
+        font-size: 14px;
+    }
+
+    .balance {
+        display: block;
+        margin-top: 10px;
+        font-size: 22px;
+        color: white;
+        font-weight: bold;
+    }
+</style>
